@@ -19,5 +19,9 @@ public class bitmani6 {
         for (char ch='A';ch<='Z';ch++) {
             System.out.println( (char) (ch|' ') );
         }
+        // Convert  lowercase character to uppercase
+       /*  for(char ch='a';ch<='z';ch++) {
+            System.out.println( (char) (ch&' ') );
+        }*/
     }
 }
