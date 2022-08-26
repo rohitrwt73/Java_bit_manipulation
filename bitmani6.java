@@ -8,5 +8,16 @@ public class bitmani6 {
         y = x^y;
         x = x^y;
         System.out.println("After swapping : x = "+ x   +"and y ="+ y);
+        //Now if we want to add 1 to an integer using bitwise not operator
+        int z=6;
+        System.out.println(z+" + "+ 1 +" is "+-~z);
+        z= -4;
+        System.out.println(z+" + "+1+" is "+-~z);
+        z=0;
+        System.out.println(z+" + "+1+" is "+-~z);
+       // Convert uppercase character to lowercase
+        for (char ch='A';ch<='Z';ch++) {
+            System.out.println( (char) (ch|' ') );
+        }
     }
 }
